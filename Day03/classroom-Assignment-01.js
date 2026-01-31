@@ -15,7 +15,7 @@ console.log("Reversed Company Name (Shortcut):", reversedCompName);
 //.       console.log("Slice Method:", str.slice(-5, 4)); // Hell 
 /* Reverse usign slice */
 
-var myName = 'Padhma';
+var myName =  process.argv[2];
 var reversedMyName = "";
 for (var i = myName.length; i >= 0; --i) {
     reversedMyName += myName.slice(i-1);
